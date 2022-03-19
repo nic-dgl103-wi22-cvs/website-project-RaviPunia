@@ -21,6 +21,22 @@ body{
     margin: auto;
 }
 
+.btn{
+    display: inline-block;
+    padding: 1em 2.5em;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.btn-primary{
+    color: #fff;
+    background: #16a083;
+}
 
 /* ############### Navbar Styling ############## */
 
@@ -65,3 +81,26 @@ body{
 .navbar a:hover{
     color: #117964;
 }
+
+/* ################# Showcase Styling ################# */
+
+.showcase-area{
+    height: 80vh;
+    background:url("./img/header-image2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.showcase-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 1.8rem;
+}
+
+.main-title{
+    text-transform: uppercase;
+ }
