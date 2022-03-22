@@ -246,3 +246,15 @@ body{
     opacity: 1;
     top: 50%;
 }
+
+/* ############## Footer Styling ############# */
+
+#footer h2{
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 3rem;
+    font-weight: 500;
+    color: #fff;
+    background: rgb(65,65,65);
+}
+
