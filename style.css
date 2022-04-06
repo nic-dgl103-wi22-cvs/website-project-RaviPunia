@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');  /* here i imported poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap'); /* Here is imported Merienda font */
 
-* {
+* {                               /* Here i selected the root element to remove all margins and paddings */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-html {
+html {                      
     font-size: 62.5%;
 }
 
@@ -15,7 +15,7 @@ body {
     font-family: 'poppins', sans-serif;
 }
 
-/* ############### Utility classes ############# */
+/* ########################## Utility classes ######################### */
 
 .container {
     max-width: 1200px;
@@ -44,7 +44,7 @@ body {
     background: #10866d;
 }
 
-/* ############### Navbar Styling ############## */
+/* ########################### Navbar Styling ############################### */
 
 /* for desktop mode*/
 .navbar input[type='checkbox'],
@@ -94,7 +94,7 @@ body {
     color: #117964;
 }
 
-/* ################# Hero section Styling ################# */
+/* ############################## Hero section Styling ############################# */
 
 .showcase-area {
     height: 80vh;
@@ -124,7 +124,7 @@ body {
     font-size: 4rem;
 }
 
-/* ###################### Abou Us styling #################  */
+/* ################################# About Us styling ###############################  */
 
 #about {
     padding: 50px 0px;
@@ -188,7 +188,7 @@ body {
     object-position: right;
 }
 
-/* ############## Food Category Styling ############# */
+/* ############################ Food Category Styling ################################ */
 
 #food {
     padding: 5rem 0 10rem 0;
@@ -267,7 +267,7 @@ body {
     top: 50%;
 }
 
-/* ############## Footer Styling ############# */
+/* ########################### Footer Styling ############################ */
 
 #footer h2 {
     text-align: center;
@@ -278,7 +278,7 @@ body {
     background: rgb(65, 65, 65);
 }
 
-/* ############### Food menu Styling ############ */
+/* ################################ Food menu Styling ############################### */
 
 .food-menu-heading {
     padding-top: 10rem;
@@ -334,7 +334,7 @@ body {
     font-weight: 700;
 }
 
-/* ################# testimonials styling ############ */
+/* ############################ Testimonials styling ########################### */
 
 #testimonials {
     background: #f5f5f7;
@@ -381,7 +381,7 @@ body {
     margin: auto;
 }
 
-/* ############## Contact Us ############# */
+/* ############################ Contact Us styling ############################ */
 
 #contact {
     padding: 5rem 0rem;
@@ -445,7 +445,7 @@ body {
     font-size: 1.2rem;
 }
 
-/* ################## Media queries ################# */
+/* ############################## Media queries for responsiveness of website (768 px) ############################# */
 
 @media (max-width: 768px) {
     .navbar {
@@ -553,7 +553,7 @@ body {
         transform: rotate(-45deg);
     }
 
-    /* ############## Famous Dishes ############# */
+    /* ############################### Famous Dishes Section Media Queries ############################ */
 
     .food-container {
         flex-direction: column;
@@ -574,7 +574,7 @@ body {
 }
 
 
-/* ################## Media queries for Small Screen ################## */
+/* ############################### Media queries for Small Screen (500px) ################################# */
 
 @media (max-width: 500px) {
     html {
